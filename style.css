@@ -1,0 +1,232 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    /*line-height: 1;*/
+    font-family: 'Poppins', sans-serif;
+    color: #525252;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/*body*/
+body {
+    background-color: #E5E5E5;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    transition: transform .2s;
+    margin-left: 60px;
+    width: 156px;
+    height: 79px;
+    cursor: pointer;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+header nav {
+    width: 700px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header nav ul li:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.auth {
+    position: relative;
+    width: 230px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    margin-right: 70px;
+}
+
+.auth ul li {
+    transition: 0.3s;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 65px;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.auth ul li:hover {
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.auth img {
+    transition: transform .2s;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 180px;
+    top: 13px;
+}
+
+.auth img:hover {
+    transform: scale(1.2);
+}
+
+/*banner*/
+.banner {
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    background-color: #AECA9F;
+}
+
+.text ul {
+    position: absolute;
+    list-style-type: none;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    left: 230px;
+    top: 160px;
+    color: #606060;
+}
+
+.pic img {
+    position: absolute;
+    width: 460px;
+    height: 430px;
+    left: 800px;
+    top: 100px;
+}
+
+.banner button {
+    position: absolute;
+    transition: 0.3s;
+    background-color: #E4C4C2;
+    font-size: 20px;
+    font-weight: 400;
+    height: 70px;
+    width: 210px;
+    left: 230px;
+    top: 470px;
+    border-radius: 10px;
+}
+
+.banner button:hover {
+    box-shadow: inset 100px 0 0 100px #f56464;
+    color: #FFFFFF;
+}
