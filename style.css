@@ -112,17 +112,18 @@ body {
 /*header*/
 header {
     width: 100%;
+    max-width: 1320px;
     height: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 header img {
     transition: transform .2s;
-    margin-left: 60px;
-    width: 156px;
-    height: 79px;
+    width: 90px;
+    height: auto;
     cursor: pointer;
 }
 
@@ -152,19 +153,21 @@ header nav ul li:hover {
 
 .auth {
     position: relative;
-    width: 230px;
     height: 60px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 7px;
-    margin-right: 70px;
+    padding: 0 24px;
+}
+
+.auth ul {
+    display: inline-block;
 }
 
 .auth ul li {
     transition: 0.3s;
     list-style-type: none;
     cursor: pointer;
-    margin-left: 65px;
     margin-top: 8px;
     opacity: 0.7;
 }
@@ -176,11 +179,9 @@ header nav ul li:hover {
 
 .auth img {
     transition: transform .2s;
-    position: absolute;
     width: 30px;
     height: 30px;
-    right: 180px;
-    top: 13px;
+    margin-right: 10px;
 }
 
 .auth img:hover {
